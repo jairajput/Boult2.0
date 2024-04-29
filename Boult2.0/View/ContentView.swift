@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             TabView{
-                Text("Feed")
+                FeedView()
                     .tabItem {
                         Image(systemName: "house.fill")
                         Text("Home")
@@ -27,6 +27,8 @@ struct ContentView: View {
                         Text("Message")
                     }
             }
+            .navigationTitle("Home")
+            .navigationBarTitleDisplayMode(.inline)
         }
         
     }
