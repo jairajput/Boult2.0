@@ -9,8 +9,8 @@ import SwiftUI
 
 struct BoultCell: View {
     var body: some View {
-        VStack{
-            HStack(alignment: .top){
+        VStack(alignment: .leading){
+            HStack{
                 Image("batman")
                     .resizable()
                     .scaledToFill()
@@ -43,7 +43,6 @@ struct BoultCell: View {
             }
             Divider()
         }
-        
     }
 }
 
