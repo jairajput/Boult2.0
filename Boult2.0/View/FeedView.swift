@@ -10,9 +10,13 @@ import SwiftUI
 struct FeedView: View {
     var body: some View {
         ZStack(alignment: .bottomTrailing){
-            
             ScrollView{
-                
+                VStack {
+                    ForEach(0..<19) { _ in
+                        BoultCell()
+                    }
+                }
+                .padding()
             }
             Button {
                 
@@ -20,7 +24,7 @@ struct FeedView: View {
                 Image(systemName: "plus")
                     .resizable()
                     .renderingMode(.template)
-                    .frame(width: 32 ,height: 32)
+                    .frame(width: 30 ,height: 30)
                     .padding()
             }
             .background(Color("Blue"))

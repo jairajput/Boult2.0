@@ -12,6 +12,7 @@
 		D84AE01E2BDFBE5A0064C960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D84AE01D2BDFBE5A0064C960 /* Assets.xcassets */; };
 		D84AE0212BDFBE5A0064C960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D84AE0202BDFBE5A0064C960 /* Preview Assets.xcassets */; };
 		D84AE0312BDFCD4B0064C960 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84AE0302BDFCD4B0064C960 /* FeedView.swift */; };
+		D84AE0352BDFD2C80064C960 /* BoultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84AE0342BDFD2C80064C960 /* BoultCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D84AE01D2BDFBE5A0064C960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D84AE0202BDFBE5A0064C960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D84AE0302BDFCD4B0064C960 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		D84AE0342BDFD2C80064C960 /* BoultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoultCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				D84AE01B2BDFBE570064C960 /* ContentView.swift */,
 				D84AE0302BDFCD4B0064C960 /* FeedView.swift */,
+				D84AE0342BDFD2C80064C960 /* BoultCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D84AE0352BDFD2C80064C960 /* BoultCell.swift in Sources */,
 				D84AE01C2BDFBE570064C960 /* ContentView.swift in Sources */,
 				D84AE0312BDFCD4B0064C960 /* FeedView.swift in Sources */,
 				D84AE01A2BDFBE570064C960 /* Boult2_0App.swift in Sources */,
